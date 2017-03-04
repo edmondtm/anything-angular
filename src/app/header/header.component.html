@@ -1,0 +1,39 @@
+  <div class="upperHeader">
+    <span class="upperHeaderLinks"><a routerLink="/merchant">SELL on anyThing</a></span>
+    <span class="upperHeaderLinks"><a routerLink="/signup">SignUp</a></span>
+    <span class="upperHeaderLinks"><a routerLink="/signin">Signin</a></span>    
+  </div>
+  
+  <div class="header">
+    <div class="row">
+      <div class="col-sm-3">
+        <a routerLink="/homepage">
+          <img src="/assets/images/Logo.png" alt="anyThing Scientific Logo" class="logo">
+        </a>
+      </div>
+
+      <div class="col-sm-6">
+        <div class="input-group search-bar">
+          <input type="text" class="form-control" aria-describedby="basic-addon2">
+          <span class="input-group-addon" id="basic-addon2">
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+          </span>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <a routerLink="cart">
+          <span class="glyphicon glyphicon-shopping-cart cart" aria-hidden="true"></span>
+        </a>
+        <button type="button" class="btn btn-default instant-quote-button" (click)="onInstantQuote()">Instant Quote</button>
+        <div class="itemInCart"><span class="badge">123</span></div>
+      </div>
+      
+        
+    </div>
+    
+    
+
+  </div>
+
+  

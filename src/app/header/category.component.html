@@ -1,0 +1,16 @@
+<div class="lowerHeader">
+    <span class="lowerHeaderLinks"><a [mdMenuTriggerFor]="glasswareMenu">Glassware</a></span>
+    <span class="lowerHeaderLinks"><a [mdMenuTriggerFor]="chemicalMenu">Chemicals</a></span>
+</div>
+
+<md-menu #glasswareMenu="mdMenu" [overlapTrigger]="false">
+  <md-list *ngFor="let glasswareSubcategory of glasswareSubcategories">
+    <md-list-item class="links"><a href="#">{{glasswareSubcategory}}</a></md-list-item>
+  </md-list>  
+</md-menu>
+
+<md-menu #chemicalMenu="mdMenu" [overlapTrigger]="false">
+  <md-list *ngFor="let reagent of reagentSubcategories">
+    <md-list-item class="links"><a href="#">{{reagent}}</a></md-list-item>
+  </md-list>  
+</md-menu>

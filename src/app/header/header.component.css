@@ -1,0 +1,59 @@
+.upperHeader{
+    background-color: #677EAE;
+    width: 100%;
+    height: 20px;
+    text-align: right;
+    padding-left:50px;
+    padding-right: 50px;
+}
+
+.upperHeaderLinks{
+    margin-left: 20px;    
+}
+
+.upperHeaderLinks a:link, a:visited {    
+    color: #293451;   
+}
+
+.upperHeaderLinks a:hover {    
+    color: #FAF8F0;   
+}
+
+.header{
+    background-color: #293451;
+    width: 100%;
+    height: 100px;
+    padding-left:50px;
+    padding-right: 50px;
+}
+
+.logo{
+    margin-top: 15px;
+}
+
+.search-bar{
+    width: 100%; 
+    margin-top: 35px;
+}
+
+.cart{
+    color: #5B68A6;
+    font-size: 30px;
+    margin-top: 35px;
+}
+
+.instant-quote-button{
+    margin-top: -15px;
+    margin-left: 30px;
+    color: #293451;
+    background-color: #5B68A6;
+}
+
+.itemInCart{
+    position: absolute;
+    top: 15px;
+}
+
+.badge {
+    background-color:#F0755A !important;
+}
