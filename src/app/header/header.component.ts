@@ -9,6 +9,8 @@ import { CartItems } from './cart-items';
 })
 export class HeaderComponent implements OnInit {
 
+  id: string;
+
   constructor(public signUpDialog:MdDialog) { }
 
   cartItems: CartItems = {

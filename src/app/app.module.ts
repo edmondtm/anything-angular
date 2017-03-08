@@ -14,6 +14,12 @@ import { SignupComponent } from './signup/signup.component';
 import { SigninComponent } from './signin/signin.component';
 import { CartComponent } from './cart/cart.component';
 import { InstantQuoteComponent } from './instant-quote/instant-quote.component';
+import { ProductsComponent } from './products/products.component';
+import { ProductShowComponent } from './products/product-show.component';
+import { FilterComponent } from './products/filter.component';
+import { FooterComponent } from './footer/footer.component';
+import { ProductEditComponent } from './products/product-edit.component';
+import { HighlightProductBoxDirective } from './products/highlight-product-box.directive';
 
 @NgModule({
   declarations: [
@@ -27,6 +33,12 @@ import { InstantQuoteComponent } from './instant-quote/instant-quote.component';
     SigninComponent,
     CartComponent,
     InstantQuoteComponent,
+    ProductsComponent,
+    ProductShowComponent,
+    FilterComponent,
+    FooterComponent,
+    ProductEditComponent,
+    HighlightProductBoxDirective,
     
 ],
   imports: [

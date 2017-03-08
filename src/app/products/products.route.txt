@@ -1,0 +1,10 @@
+import {Routes} from "@angular/router";
+import {ProductEditComponent} from "./product-edit.component";
+import {ProductShowComponent} from "./product-show.component";
+
+export const PRODUCT_ROUTES: Routes = [
+    {path: '',redirectTo: '/homepage', pathMatch: 'full'},
+    {path: 'new', component: ProductEditComponent },
+    {path: ':id', component: ProductShowComponent },
+    {path: ':id/edit', component: ProductEditComponent }
+]

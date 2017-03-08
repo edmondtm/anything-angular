@@ -1,0 +1,45 @@
+
+.search-result{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    border-bottom-style: solid;
+    border-color: #5B68A6;
+    border-width: 2px 
+}
+
+.page{
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-style: solid;
+    border-color: #5B68A6;
+    border-width: 1px 3px 3px 1px;
+    margin-top: 10px;
+    margin-left: 50px;    
+}
+
+.product-box{
+    width: 20%;
+    border-style: solid;
+    border-width: 1px 3px 3px 1px;
+    border-color: #5B68A6;
+    height: 325px;
+    padding: 10px 10px 10px 10px;
+    margin-right: 10px;
+    margin-top: 10px;    
+    }
+
+.brand{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    max-width: 50px;
+    }
+
+.product-image{
+    width: 100%;
+}

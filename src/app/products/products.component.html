@@ -1,0 +1,45 @@
+  <div class="search-result">
+    1 - 16 of {{products.length}} search results for "beaker"
+  </div>
+
+  
+
+  <div class="col-sm-3">
+    <div class="page">
+      <any-filter></any-filter>
+    </div>    
+  </div>
+
+  <div class="col-sm-9">
+    <div class="col-md-3 col-sm-6 col-xs-12 product-box" anyHighlightProductBox *ngFor = "let product of products">
+      <a routerLink="/products/{{product.id}}"><img src="{{product.image}}" alt="{{product.name}}" class="product-image"></a>
+      
+
+      <img src="/assets/images/brand/pyrex.jpg" alt="Pyrex" class="brand">
+      
+      <h5><a routerLink="/products/{{product.id}}">{{product.name}}</a></h5>
+      <h6>from RM {{product.price}}</h6>
+    </div>    
+  </div>
+
+  <div class="col-sm-12">
+    <nav aria-label="Page navigation"  class="pull-right">
+  <ul class="pagination">
+    <li>
+      <a href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li><a href="#">1</a></li>
+    <li><a href="#">2</a></li>
+    <li><a href="#">3</a></li>
+    <li><a href="#">4</a></li>
+    <li><a href="#">5</a></li>
+    <li>
+      <a href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
+  </div>
