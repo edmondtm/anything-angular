@@ -1,0 +1,196 @@
+,
+  { _id: 2,
+    name: 'Pyrex Tall Form Beaker',
+    image: ['/assets/images/product/1015.jpg'],
+    category: ['Home','Glassware','Beaker'],
+    brand: 'Pyrex',
+    vendor: 'Papaya Scientific',
+    tableHeader: ['ItemCode','Capacity (ml)','Height(mm)','Outside Diameter(mm)','Price','Delivery'],
+    variations:  [
+                  '1000',['5','30','22'],['MYR',11],[4,'days'],30,[2,'weeks'],
+                  '1000',['10','35','26'],['MYR',13],[4,'days'],30,[2,'weeks'],
+                  '1000',['25','50','34'],['MYR',10],[4,'days'],30,[2,'weeks'],
+                  '1000',['50','60','42'],['MYR',12],[4,'days'],30,[2,'weeks'],
+                  '1000',['100','70','50'],['MYR',10],[4,'days'],30,[2,'weeks']                  
+                  ]
+  },
+  { 
+    _id: 3,
+    name: 'Pyrex Heavy Duty Beaker',
+    image: ['/assets/images/product/1003.jpg'],
+    category: ['Home','Glassware','Beaker'],
+    brand: 'Pyrex',
+    vendor: 'Papaya Scientific',
+    tableHeader: ['ItemCode','Capacity (ml)','Height(mm)','Outside Diameter(mm)','Price','Delivery'],
+    variations:  [
+                  '1000',['5','30','22'],['MYR',11],[4,'days'],30,[2,'weeks'],
+                  '1000',['10','35','26'],['MYR',13],[4,'days'],30,[2,'weeks'],
+                  '1000',['25','50','34'],['MYR',10],[4,'days'],30,[2,'weeks'],
+                  '1000',['50','60','42'],['MYR',12],[4,'days'],30,[2,'weeks'],
+                  '1000',['100','70','50'],['MYR',10],[4,'days'],30,[2,'weeks']                  
+                  ]
+  },
+  {
+    _id: 4,
+    name: 'Pyrex Conical Beaker',
+    image: ['/assets/images/product/1020.jpg'],
+    category: ['Home','Glassware','Beaker'],
+    brand: 'Pyrex',
+    vendor: 'Papaya Scientific',
+    tableHeader: ['ItemCode','Capacity (ml)','Height(mm)','Outside Diameter(mm)','Price','Delivery'],
+    variations:  [
+                  '1000',['5','30','22'],['MYR',11],[4,'days'],30,[2,'weeks'],
+                  '1000',['10','35','26'],['MYR',13],[4,'days'],30,[2,'weeks'],
+                  '1000',['25','50','34'],['MYR',10],[4,'days'],30,[2,'weeks'],
+                  '1000',['50','60','42'],['MYR',12],[4,'days'],30,[2,'weeks'],
+                  '1000',['100','70','50'],['MYR',10],[4,'days'],30,[2,'weeks']                  
+                  ]    
+  },
+  {
+    _id: 5,
+    name: 'Pyrex Jacketed Beaker',
+    image: ['/assets/images/product/1025.jpg'],
+    category: ['Home','Glassware','Beaker'],
+    brand: 'Pyrex',
+    vendor: 'Papaya Scientific',
+    tableHeader: ['ItemCode','Capacity (ml)','Height(mm)','Outside Diameter(mm)','Price','Delivery'],
+    variations:  [
+                  '1000',['5','30','22'],['MYR',11],[4,'days'],30,[2,'weeks'],
+                  '1000',['10','35','26'],['MYR',13],[4,'days'],30,[2,'weeks'],
+                  '1000',['25','50','34'],['MYR',10],[4,'days'],30,[2,'weeks'],
+                  '1000',['50','60','42'],['MYR',12],[4,'days'],30,[2,'weeks'],
+                  '1000',['100','70','50'],['MYR',10],[4,'days'],30,[2,'weeks']                  
+                  ]
+  },
+  {
+    _id: 6,
+    name: 'Duran Low Form Beaker with spout',
+    image: ['/assets/images/product/21106.jpg'],
+    category: ['Home','Glassware','Beaker'],
+    brand: 'Duran',
+    vendor: 'Orange Scientific',
+    tableHeader: ['ItemCode','Capacity (ml)','Height(mm)','Outside Diameter(mm)','Price','Delivery'],
+    variations:  [
+                  '1000',['5','30','22'],['MYR',11],[4,'days'],30,[2,'weeks'],
+                  '1000',['10','35','26'],['MYR',13],[4,'days'],30,[2,'weeks'],
+                  '1000',['25','50','34'],['MYR',10],[4,'days'],30,[2,'weeks'],
+                  '1000',['50','60','42'],['MYR',12],[4,'days'],30,[2,'weeks'],
+                  '1000',['100','70','50'],['MYR',10],[4,'days'],30,[2,'weeks']                  
+                  ]
+    
+  },
+  {
+    _id: 7,
+    name: 'Duran Tall Form Beaker without spout',
+    image: ['/assets/images/product/21117.jpg'],
+    category: ['Home','Glassware','Beaker'],
+    brand: 'Duran',
+    vendor: 'Orange Scientific',
+    tableHeader: ['ItemCode','Capacity (ml)','Height(mm)','Outside Diameter(mm)','Price','Delivery'],
+    variations:  [
+                  '1000',['5','30','22'],['MYR',11],[4,'days'],30,[2,'weeks'],
+                  '1000',['10','35','26'],['MYR',13],[4,'days'],30,[2,'weeks'],
+                  '1000',['25','50','34'],['MYR',10],[4,'days'],30,[2,'weeks'],
+                  '1000',['50','60','42'],['MYR',12],[4,'days'],30,[2,'weeks'],
+                  '1000',['100','70','50'],['MYR',10],[4,'days'],30,[2,'weeks']                  
+                 ]
+  },
+  {
+    _id: 8,
+    name: 'Duran Tall Form Beaker with spout',
+    image: ['/assets/images/product/21116.jpg'],
+    category: ['Home','Glassware','Beaker'],
+    brand: 'Duran',
+    vendor: 'Orange Scientific',
+    tableHeader: ['ItemCode','Capacity (ml)','Height(mm)','Outside Diameter(mm)','Price','Delivery'],
+    variations:  [
+                  '1000',['5','30','22'],['MYR',11],[4,'days'],30,[2,'weeks'],
+                  '1000',['10','35','26'],['MYR',13],[4,'days'],30,[2,'weeks'],
+                  '1000',['25','50','34'],['MYR',10],[4,'days'],30,[2,'weeks'],
+                  '1000',['50','60','42'],['MYR',12],[4,'days'],30,[2,'weeks'],
+                  '1000',['100','70','50'],['MYR',10],[4,'days'],30,[2,'weeks']                  
+                 ]
+    
+  },
+  {
+    _id: 9,
+    name: 'Duran Super Heavy Duty Beaker',
+    image: ['/assets/images/product/duran_super_heavy_duty_beaker.jpg'],
+    category: ['Home','Glassware','Beaker'],
+    brand: 'Duran',
+    vendor: 'Orange Scientific',
+    tableHeader: ['ItemCode','Capacity (ml)','Height(mm)','Outside Diameter(mm)','Price','Delivery'],
+    variations:  [
+                  '1000',['5','30','22'],['MYR',11],[4,'days'],30,[2,'weeks'],
+                  '1000',['10','35','26'],['MYR',13],[4,'days'],30,[2,'weeks'],
+                  '1000',['25','50','34'],['MYR',10],[4,'days'],30,[2,'weeks'],
+                  '1000',['50','60','42'],['MYR',12],[4,'days'],30,[2,'weeks'],
+                  '1000',['100','70','50'],['MYR',10],[4,'days'],30,[2,'weeks']                  
+                 ]
+  
+  },
+  {
+    _id: 10,
+    name: 'Duran Heavy-Wall Beaker (filtering)',
+    image: ['/assets/images/product/21117.jpg'],
+    category: ['Home','Glassware','Beaker'],
+    brand: 'Duran',
+    vendor: 'Orange Scientific',
+    tableHeader: ['ItemCode','Capacity (ml)','Height(mm)','Outside Diameter(mm)','Price','Delivery'],
+    variations:  [
+                  '1000',['5','30','22'],['MYR',11],[4,'days'],30,[2,'weeks'],
+                  '1000',['10','35','26'],['MYR',13],[4,'days'],30,[2,'weeks'],
+                  '1000',['25','50','34'],['MYR',10],[4,'days'],30,[2,'weeks'],
+                  '1000',['50','60','42'],['MYR',12],[4,'days'],30,[2,'weeks'],
+                  '1000',['100','70','50'],['MYR',10],[4,'days'],30,[2,'weeks']                  
+               ]
+  },
+  {
+    _id: 11,
+    name: 'Azlon PP Straight Sided Beakers',
+    image: [''],
+    category: ['Home','Glassware','Beaker'],
+    brand: 'Azlon',
+    vendor: 'Apple Scientific',
+    tableHeader: ['ItemCode','Capacity (ml)','Height(mm)','Outside Diameter(mm)','Price','Delivery'],
+    variations:  [
+                  '1000',['5','30','22'],['MYR',11],[4,'days'],30,[2,'weeks'],
+                  '1000',['10','35','26'],['MYR',13],[4,'days'],30,[2,'weeks'],
+                  '1000',['25','50','34'],['MYR',10],[4,'days'],30,[2,'weeks'],
+                  '1000',['50','60','42'],['MYR',12],[4,'days'],30,[2,'weeks'],
+                  '1000',['100','70','50'],['MYR',10],[4,'days'],30,[2,'weeks']                  
+                 ]
+  },
+  {
+    _id: 12,
+    name: 'Azlon PP Tapered Beaker',
+    image: [''],
+    category: ['Home','Glassware','Beaker'],
+    brand: 'Azlon',
+    vendor: 'Apple Scientific',
+    tableHeader: ['ItemCode','Capacity (ml)','Height(mm)','Outside Diameter(mm)','Price','Delivery'],
+    variations:  [
+                  '1000',['5','30','22'],['MYR',11],[4,'days'],30,[2,'weeks'],
+                  '1000',['10','35','26'],['MYR',13],[4,'days'],30,[2,'weeks'],
+                  '1000',['25','50','34'],['MYR',10],[4,'days'],30,[2,'weeks'],
+                  '1000',['50','60','42'],['MYR',12],[4,'days'],30,[2,'weeks'],
+                  '1000',['100','70','50'],['MYR',10],[4,'days'],30,[2,'weeks']                  
+                ]
+  },
+  {
+    _id: 13,
+    name: 'Azlon Low Form Beaker with Spout',
+    image: [''],
+    category: ['Home','Glassware','Beaker'],
+    brand: 'Azlon',
+    vendor: 'Orange Scientific',
+    tableHeader: ['ItemCode','Capacity (ml)','Height(mm)','Outside Diameter(mm)','Price','Delivery'],
+    variations:  [
+                  '1000',['5','30','22'],['MYR',11],[4,'days'],30,[2,'weeks'],
+                  '1000',['10','35','26'],['MYR',13],[4,'days'],30,[2,'weeks'],
+                  '1000',['25','50','34'],['MYR',10],[4,'days'],30,[2,'weeks'],
+                  '1000',['50','60','42'],['MYR',12],[4,'days'],30,[2,'weeks'],
+                  '1000',['100','70','50'],['MYR',10],[4,'days'],30,[2,'weeks']                  
+                 ]
+    
+  }

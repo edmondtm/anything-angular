@@ -1,11 +1,14 @@
 export class Products {
-    _id : number;
+    id : number; 
     name : string;
-    image : [string];
-    category : [string];
     brand : string;
-    vendor: string;
-    tableHeader: [string];
-    variations :[string, [string] , [string,number], [number,string],number,[number,string]];
-    // [itemCode,[attributes],[price],[delivery,days/weeks],inventory,[backorder,days/weeks]]
-}
+    image : Array<string>;
+    category : Array<string>;    
+    variations :[{itemCode:string, attributes:Array<string> , price:[string,number], delivery:[number,string],inventory:number,backorder:[number,string]}];
+    
+};
+
+//brand : string;
+    //vendor: string
+    //tableHeader: [string];
+// [itemCode,[attributes],[price],[delivery,days/weeks],inventory,[backorder,days/weeks]]
