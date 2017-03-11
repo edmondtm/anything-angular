@@ -43,3 +43,11 @@
 .product-image{
     width: 100%;
 }
+
+.pagination{
+    text-align: center;
+}
+
+.pagination>li>span, .pagination>li>a {
+    border: 1px solid #5B68A6 !important;
+}

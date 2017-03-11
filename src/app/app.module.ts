@@ -20,6 +20,7 @@ import { FilterComponent } from './products/filter.component';
 import { FooterComponent } from './footer/footer.component';
 import { ProductEditComponent } from './products/product-edit.component';
 import { HighlightProductBoxDirective } from './products/highlight-product-box.directive';
+import { PaginationComponent } from './products/pagination.component';
 
 @NgModule({
   declarations: [
@@ -39,6 +40,7 @@ import { HighlightProductBoxDirective } from './products/highlight-product-box.d
     FooterComponent,
     ProductEditComponent,
     HighlightProductBoxDirective,
+    PaginationComponent,
     
 ],
   imports: [

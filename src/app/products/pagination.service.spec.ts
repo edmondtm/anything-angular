@@ -1,16 +1,16 @@
 /* tslint:disable:no-unused-variable */
 
 import { TestBed, async, inject } from '@angular/core/testing';
-import { PagerService } from './pager.service';
+import { PaginationService } from './pagination.service';
 
-describe('PagerService', () => {
+describe('PaginationService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [PagerService]
+      providers: [PaginationService]
     });
   });
 
-  it('should ...', inject([PagerService], (service: PagerService) => {
+  it('should ...', inject([PaginationService], (service: PaginationService) => {
     expect(service).toBeTruthy();
   }));
 });
