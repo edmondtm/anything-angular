@@ -1,8 +1,8 @@
   <div class="col-sm-12">
     <div class="breadcrumbs">
       <ol class="breadcrumb">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Glassware</a></li>
+        <li><a routerLink="{{allProducts[(id -1)].categoryPath[0]}}">{{allProducts[(id -1)].category[0]}}</a></li>
+        <li><a routerLink="{{allProducts[(id -1)].categoryPath[1]}}">{{allProducts[(id -1)].category[1]}}</a></li>
         <li class="active">Beaker</li>
       </ol>
     </div>
@@ -10,21 +10,20 @@
 
   <div class="col-sm-1">
     <div class="image-menu">
-      <img src="/assets/images/product/1000.jpg" alt="image" class="image-in-menu">
-      <img src="/assets/images/product/1000.jpg" alt="image" class="image-in-menu">
-      <img src="/assets/images/product/1000.jpg" alt="image" class="image-in-menu">
-      <img src="/assets/images/product/1000.jpg" alt="image" class="image-in-menu">
+      <span *ngFor = "let image of allProducts[(id -1)].image; let i = index;" (click)="onSelectImage(i)">
+        <img src="{{image}}" alt="image" class="image-in-menu">
+      </span>
     </div>
   </div>
 
 <div class="col-sm-3">
     <div class="display-image-container">
-      <img src="/assets/images/product/1000.jpg" alt="image" class="display-image">
+      <img src="{{selectedImage}}" alt="image" class="display-image">
     </div>
 </div>
 <div class="col-sm-4">
     <div class="product-description">
-      <h3>Pyrex Low Form Beaker</h3>
+      <h3>{{allProducts[(id - 1)].name}}</h3>
       <ul>
         <li>Complies with ISO 3819 and DIN 12331</li>
         <li>Manufactured from Pyrex® borosilicate glass</li>
@@ -46,23 +45,19 @@
     <table class="table cart-input">
       <thead>
         <tr>
-          <th>Item Code</th>
-          <th>Capacity (ml)</th>
-          <th>Height (mm)</th>
-          <th>Outside Diameter (mm)</th>
-          <th>Price</th>
-          <th>Delivery</th>
+          <th>{{allProducts[(id - 1)].tableHeader.itemCode}}</th>
+          <th *ngFor = "let attribute of allProducts[(id - 1)].tableHeader.attributes">{{attribute}}</th>          
+          <th>{{allProducts[(id - 1)].tableHeader.price}}</th>
+          <th>{{allProducts[(id - 1)].tableHeader.delivery}}</th>
           <th>&nbsp;</th>
         </tr>
       </thead>
       <tbody>
-        <tr>
-          <td>1000/03M</td>
-          <td>5</td>
-          <td>30</td>
-          <td>22</td>
-          <td>RM12</td>
-          <td>4 Days</td>
+        <tr *ngFor = "let variation of allProducts[(id - 1)].variations">
+          <td>{{variation.itemCode}}</td>
+          <td *ngFor = "let attribute of variation.attributes">{{attribute}}</td>
+          <td>{{variation.price[0]}} {{variation.price[1]}}</td>
+          <td>{{variation.delivery[0]}} {{variation.delivery[1]}}</td>
           <td>
             <form class="form-inline">
             <div class="form-group">
@@ -74,42 +69,7 @@
 
           </td>
         </tr>
-        <tr>
-          <td>1000/05M</td>
-          <td>10</td>
-          <td>35</td>
-          <td>26</td>
-          <td>RM14</td>
-          <td>4 Days</td>
-          <td>
-            <form class="form-inline">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="0" class="order-unit">              
-            </div>
-            <button type="submit" class="btn btn-default">Add to Cart</button>
-            <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
-            </form>
-
-          </td>
-        </tr>
-        <tr>
-          <td>1000/11M</td>
-          <td>25</td>
-          <td>50</td>
-          <td>34</td>
-          <td>RM16</td>
-          <td>4 Days</td>
-          <td>
-            <form class="form-inline">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="0" class="order-unit">              
-            </div>
-            <button type="submit" class="btn btn-default">Add to Cart</button>
-            <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
-            </form>
-
-          </td>
-        </tr>
+        
         
       </tbody>
       
