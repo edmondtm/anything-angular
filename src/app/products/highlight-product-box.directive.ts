@@ -5,6 +5,7 @@ import { Directive, ElementRef, HostListener, Input } from '@angular/core';
 })
 export class HighlightProductBoxDirective {
 
+
   constructor(private el: ElementRef) { }
 
   @HostListener('mouseenter') onMouseEnter() {
@@ -15,7 +16,7 @@ export class HighlightProductBoxDirective {
     this.highlight(null);
   }
 
-  private highlight(color: string) {
+  private highlight(color: string | null) {
     this.el.nativeElement.style.borderColor = color;
   }
 

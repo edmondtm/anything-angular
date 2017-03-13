@@ -26,7 +26,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 3,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -34,7 +34,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 4,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -42,7 +42,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 5,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -50,7 +50,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 6,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -58,7 +58,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 7,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -66,7 +66,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 8,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -74,7 +74,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 9,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -82,7 +82,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 10,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -90,7 +90,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 11,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -98,7 +98,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 12,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -106,7 +106,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 13,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -114,7 +114,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 14,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -122,7 +122,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 15,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -130,111 +130,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
-      name: 'Pyrex Tall Form Beaker',
-      brand: 'Pyrex',
-      image : ['/assets/images/product/1015.jpg'],
-      category : ['homepage'],
-      variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
-    },
-    {
-      id: 2,
-      name: 'Pyrex Tall Form Beaker',
-      brand: 'Pyrex',
-      image : ['/assets/images/product/1015.jpg'],
-      category : ['homepage'],
-      variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
-    },
-    {
-      id: 2,
-      name: 'Pyrex Tall Form Beaker',
-      brand: 'Pyrex',
-      image : ['/assets/images/product/1015.jpg'],
-      category : ['homepage'],
-      variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
-    },
-    {
-      id: 2,
-      name: 'Pyrex Tall Form Beaker',
-      brand: 'Pyrex',
-      image : ['/assets/images/product/1015.jpg'],
-      category : ['homepage'],
-      variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
-    },
-    {
-      id: 2,
-      name: 'Pyrex Tall Form Beaker',
-      brand: 'Pyrex',
-      image : ['/assets/images/product/1015.jpg'],
-      category : ['homepage'],
-      variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
-    },
-    {
-      id: 2,
-      name: 'Pyrex Tall Form Beaker',
-      brand: 'Pyrex',
-      image : ['/assets/images/product/1015.jpg'],
-      category : ['homepage'],
-      variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
-    },
-    {
-      id: 2,
-      name: 'Pyrex Tall Form Beaker',
-      brand: 'Pyrex',
-      image : ['/assets/images/product/1015.jpg'],
-      category : ['homepage'],
-      variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
-    },
-    {
-      id: 2,
-      name: 'Pyrex Tall Form Beaker',
-      brand: 'Pyrex',
-      image : ['/assets/images/product/1015.jpg'],
-      category : ['homepage'],
-      variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
-    },
-    {
-      id: 2,
-      name: 'Pyrex Tall Form Beaker',
-      brand: 'Pyrex',
-      image : ['/assets/images/product/1015.jpg'],
-      category : ['homepage'],
-      variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
-    },
-    {
-      id: 2,
-      name: 'Pyrex Tall Form Beaker',
-      brand: 'Pyrex',
-      image : ['/assets/images/product/1015.jpg'],
-      category : ['homepage'],
-      variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
-    },
-    {
-      id: 2,
-      name: 'Pyrex Tall Form Beaker',
-      brand: 'Pyrex',
-      image : ['/assets/images/product/1015.jpg'],
-      category : ['homepage'],
-      variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
-    },
-    {
-      id: 2,
-      name: 'Pyrex Tall Form Beaker',
-      brand: 'Pyrex',
-      image : ['/assets/images/product/1015.jpg'],
-      category : ['homepage'],
-      variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
-    },
-    {
-      id: 2,
-      name: 'Pyrex Tall Form Beaker',
-      brand: 'Pyrex',
-      image : ['/assets/images/product/1015.jpg'],
-      category : ['homepage'],
-      variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
-    },
-    {
-      id: 2,
+      id: 16,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -242,7 +138,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
      {
-      id: 2,
+      id: 17,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -250,7 +146,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 18,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -258,7 +154,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 19,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -266,7 +162,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 20,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -274,7 +170,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 21,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -282,7 +178,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 22,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -290,7 +186,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 23,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -298,7 +194,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 24,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -306,7 +202,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 25,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -314,7 +210,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 26,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -322,7 +218,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 27,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -330,7 +226,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 28,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -338,7 +234,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 29,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -346,7 +242,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 30,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -354,7 +250,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 31,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -362,7 +258,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 32,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -370,7 +266,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 33,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -378,7 +274,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 34,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -386,7 +282,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 35,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -394,7 +290,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 36,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -402,7 +298,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 37,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -410,7 +306,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 38,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -418,7 +314,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 39,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -426,7 +322,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 40,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -434,7 +330,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 41,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -442,7 +338,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 42,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -450,7 +346,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 43,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -458,7 +354,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 44,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -466,7 +362,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 45,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -474,7 +370,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
      {
-      id: 2,
+      id: 46,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -482,7 +378,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 47,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -490,7 +386,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 48,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -498,7 +394,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 49,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -506,7 +402,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 50,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -514,7 +410,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 51,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -522,7 +418,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 52,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -530,7 +426,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 53,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -538,7 +434,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 54,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -546,7 +442,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 55,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -554,7 +450,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 56,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -562,7 +458,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 57,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -570,7 +466,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 58,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -578,7 +474,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 59,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -586,7 +482,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 60,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -594,7 +490,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 61,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -602,7 +498,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 62,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -610,7 +506,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 63,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -618,7 +514,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 64,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -626,7 +522,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 65,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -634,7 +530,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 66,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -642,7 +538,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 67,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -650,7 +546,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 68,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -658,7 +554,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 69,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -666,7 +562,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 70,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -674,7 +570,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 71,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -682,7 +578,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 72,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -690,7 +586,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 73,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],
@@ -698,7 +594,7 @@ import {Products} from "./products";
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}]
     },
     {
-      id: 2,
+      id: 74,
       name: 'Pyrex Tall Form Beaker',
       brand: 'Pyrex',
       image : ['/assets/images/product/1015.jpg'],

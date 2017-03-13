@@ -1,8 +1,8 @@
-  <div class="search-result">
-    1 - {{products.length}} of {{allProducts.length}} search results for "beaker"
-  </div>
-
+  <div id="start"></div>
   
+  <div class="search-result">
+    {{paginationLowerLimit + 1}} - {{paginationLowerLimit + products.length}} of {{allProducts.length}} search results for "beaker"
+  </div>
 
   <div class="col-sm-3">
     <div class="page">
@@ -14,10 +14,9 @@
     <div class="col-md-3 col-sm-6 col-xs-12 product-box" anyHighlightProductBox *ngFor="let product of products">
       <a routerLink="/products/{{product.id}}"><img src="{{product.image}}" alt="{{product.name}}" class="product-image"></a>
       
-
       <h4>{{product.brand}}</h4>
       
-      <h5><a routerLink="/products/{{product.id}}">{{product.name}}</a></h5>
+      <h5><a [routerLink]="['/products',product.id]">{{product.name}}</a></h5>
       <h6>from {{product.variations[0].price[0]}} {{product.variations[0].price[1]}} </h6>
     </div>    
   </div>
