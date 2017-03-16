@@ -1,6 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
-import { FormsModule } from '@angular/forms';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
 import { MaterialModule } from '@angular/material';
@@ -21,6 +21,8 @@ import { FooterComponent } from './footer/footer.component';
 import { ProductEditComponent } from './products/product-edit.component';
 import { HighlightProductBoxDirective } from './products/highlight-product-box.directive';
 import { PaginationComponent } from './products/pagination.component';
+import { ChemicalsComponent } from './chemicals/chemicals.component';
+import { GlasswaresComponent } from './glasswares/glasswares.component';
 
 @NgModule({
   declarations: [
@@ -41,6 +43,9 @@ import { PaginationComponent } from './products/pagination.component';
     ProductEditComponent,
     HighlightProductBoxDirective,
     PaginationComponent,
+    ChemicalsComponent,
+    GlasswaresComponent,
+    CartComponent,
     
 ],
   imports: [
@@ -48,7 +53,8 @@ import { PaginationComponent } from './products/pagination.component';
     FormsModule,
     HttpModule,
     AppRoutingModule,
-    MaterialModule
+    MaterialModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

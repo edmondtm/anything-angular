@@ -26,7 +26,7 @@
           <span class="glyphicon glyphicon-shopping-cart cart" aria-hidden="true"></span>
         </a>
         <button type="button" class="btn btn-default instant-quote-button" (click)="onInstantQuote()">Instant Quote</button>
-        <div class="itemInCart"><span class="badge">123</span></div>
+        <div class="itemInCart" *ngIf="itemsInCart > 0"><span class="badge">{{itemsInCart}}</span></div>
       </div>
       
         

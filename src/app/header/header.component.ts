@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { MdDialog } from '@angular/material';
 import { CartItems } from './cart-items';
 
@@ -10,6 +10,7 @@ import { CartItems } from './cart-items';
 export class HeaderComponent implements OnInit {
 
   id: string;
+  @Input() itemsInCart: number = 0;
 
   constructor(public signUpDialog:MdDialog) { }
 

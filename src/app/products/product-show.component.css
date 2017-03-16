@@ -69,6 +69,10 @@ tr:hover {
     color: #FAF8F0;
 }
 
+tr:hover input{
+    color: #5B68A6;
+}
+
 .order-units{
     width: 60px;
 }

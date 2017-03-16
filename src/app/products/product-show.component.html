@@ -24,17 +24,9 @@
 <div class="col-sm-4">
     <div class="product-description">
       <h3>{{allProducts[(id - 1)].name}}</h3>
-      <ul>
-        <li>Complies with ISO 3819 and DIN 12331</li>
-        <li>Manufactured from Pyrex® borosilicate glass</li>
-        <li>Excellent thermal performance</li>
-        <li>High resistance to chemical attack</li>
-        <li>Printed with Trace Code for downloadable batch certificate</li>
-        <li>Batch certificate available to download from www.scilabware.com</li>
-        <li>White graduations and marking spot</li>
-      </ul>
+      
+      <span [innerHTML]="allProducts[(id - 1)].shortDescription"></span>
 
-      <h1>{{id}}</h1>
       
     </div>    
 </div>
@@ -59,12 +51,14 @@
           <td>{{variation.price[0]}} {{variation.price[1]}}</td>
           <td>{{variation.delivery[0]}} {{variation.delivery[1]}}</td>
           <td>
-            <form class="form-inline">
-            <div class="form-group">
-              <input type="text" class="form-control" placeholder="0" class="order-unit">              
-            </div>
-            <button type="submit" class="btn btn-default">Add to Cart</button>
-            <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
+            <form class="form-inline" [formGroup]="addToCartForm" 
+              (ngSubmit)="onSubmit(id,allProducts[(id - 1)].name, variation, allProducts[(id - 1)].tableHeader.attributes)">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="0" 
+                  class="order-unit" required name="quantity" formControlName="quantity">                
+              </div>
+              <button type="submit" class="btn btn-default" >Add to Cart</button>
+              <span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>
             </form>
 
           </td>

@@ -7,6 +7,8 @@ import { SigninComponent } from './signin/signin.component';
 import { CartComponent } from './cart/cart.component';
 import { ProductsComponent } from './products/products.component';
 import { ProductShowComponent } from './products/product-show.component';
+import { GlasswaresComponent } from './glasswares/glasswares.component';
+import { ChemicalsComponent } from './chemicals/chemicals.component';
 const routes: Routes = [
   {
     path: 'merchant',
@@ -31,6 +33,14 @@ const routes: Routes = [
   {
     path: 'signin',
     component: SigninComponent
+  },
+  {
+    path: 'glasswares',
+    component: GlasswaresComponent
+  },
+  {
+    path: 'chemicals',
+    component: ChemicalsComponent
   },
   {
     path: 'cart',

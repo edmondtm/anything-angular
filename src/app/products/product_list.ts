@@ -8,7 +8,7 @@ import {Products} from "./products";
       vendor: 'ABC Scientific Sdn Bhd',
       image : ['/assets/images/product/1000.jpg','/assets/images/product/1003.jpg','/assets/images/product/1015.jpg'],
       category : ['Home','Glassware','Beaker'],
-      categoryPath : ['/','/glassware'],
+      categoryPath : ['/','/glasswares'],
       shortDescription : `
                             <ul>
                               <li>Complies with ISO 3819 and DIN 12331</li>
@@ -20,7 +20,7 @@ import {Products} from "./products";
                               <li>White graduations and marking spot</li>
                             </ul>
                           `,
-      tableHeader : {itemCode:'Item Code', attributes:['Capacity (ml)','Height (mm)'], price:'Price (MYR)', delivery:'Delivery'},
+      tableHeader : {itemCode:'Item Code', attributes:['Capacity (ml)','Height (mm)','Outside Diameter(mm)'], price:'Price (MYR)', delivery:'Delivery'},
       variations :[{itemCode:'1000/03M', attributes:['5','30','22'] , price:['MYR',10], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']},
                     {itemCode:'1000/05M', attributes:['5' ,'30','22'] , price:['MYR',12], delivery:[4,'days'],inventory:30,backorder:[2,'weeks']}
                   ]
