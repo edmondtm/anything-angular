@@ -24,6 +24,10 @@ import { PaginationComponent } from './products/pagination.component';
 import { ChemicalsComponent } from './chemicals/chemicals.component';
 import { GlasswaresComponent } from './glasswares/glasswares.component';
 
+import {PaginationService} from './products/pagination.service';
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -56,7 +60,7 @@ import { GlasswaresComponent } from './glasswares/glasswares.component';
     MaterialModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [PaginationService],
   bootstrap: [AppComponent]
 
   

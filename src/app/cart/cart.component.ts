@@ -1,4 +1,6 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
+import { Cart } from './cart';
+import { mockCart } from './mockCart';
 
 @Component({
   selector: 'any-cart',
@@ -7,9 +9,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CartComponent implements OnInit {
 
+  @Input() mockCart : Cart;
+
   constructor() { }
 
   ngOnInit() {
+    console.log("Length of Cart = " + mockCart.length);
+    console.log(mockCart);
   }
+
+  
 
 }

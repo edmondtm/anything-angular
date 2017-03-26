@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { PRODUCTS } from './product_list';
 import { ReactiveFormsModule, FormGroup, FormControl, Validators} from '@angular/forms';
+import { Cart } from '../cart/cart';
+import { mockCart } from '../cart/mockCart';
 
 @Component({
   selector: 'any-product-show',
@@ -47,7 +49,7 @@ export class ProductShowComponent implements OnInit {
     for (let i=0; i < variation.attributes.length; ++i){
       header = attributes[i];
       attribute = variation.attributes[i];
-      productProperties += header + ' : ' + attribute + ' ';      
+      productProperties += header + ' : ' + attribute + ', ';      
     }
     
     this.addToCartForm.value.id = id;
@@ -55,7 +57,8 @@ export class ProductShowComponent implements OnInit {
     this.addToCartForm.value.name = name;
     this.addToCartForm.value.productProperties = productProperties;
     this.addToCartForm.value.price = variation.price[1];
-    console.log(this.addToCartForm.value);
+    mockCart.push(this.addToCartForm.value);
+    console.log(mockCart);
   }
 
 }
